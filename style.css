@@ -1,0 +1,131 @@
+/*ESTILOS DA NAV*/
+
+#nav {
+    position: absolute;
+    background: #1190cd;
+    width: 100vw;
+    height: 50px;
+    left: 0px;
+    top: 0px;
+}
+
+#img-logo {
+    position: relative;
+    left: 3vw;
+    top: 0px;
+    height: 48px;
+    width: 120px;
+}
+
+#nav-options-left {
+    position: absolute;
+    width: 693px;
+    height: 50px;
+    left: 10vw;
+    top: 0px;
+}
+
+#nav-options-rigth {
+    position: absolute;
+    width: 270px;
+    height: 50px;
+    right: 2vw;
+    top: 0px;
+}
+.font-nav-options {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-weight: bold;
+}
+
+#ul-options {
+    position: absolute;
+    text-align: center;
+    top: -15px;
+}
+
+.li-nav-options {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.li-nav-options:hover {
+    background: #1199cd;
+    cursor: pointer;
+}
+
+/*ESTILOS DO ASIDE*/
+
+#aside {
+    position: relative;
+    background: yellow;
+    width: 300px;
+    height: max-content;
+    top: 83px;
+    left: 14vw;
+}
+
+#inputMain {
+    appearance: none;
+    background: #fff;
+    border: 1px solid rgba(0,0,0,.12);
+    border-radius: 4px;
+    color: rgba(0,0,0,.54);
+    outline: none;
+    box-sizing: border-box;
+    font-size: 13px;
+    max-width: 100%;
+    padding: 12px;
+    height: 44px;
+    width: 100%;
+}
+
+
+/*ESTILOS DA SEÇÃO PRINCIPAL - HEAD*/
+
+#head {
+    
+}
+
+/*ESTILOS DA SEÇÃO PRINCIPAL - CONTEÚDO*/
+
+#section-main {
+    position: relative;
+    background: yellow;
+    width: 600px;
+    height: max-content;
+    top: 83px;
+    left: 30vw;    
+}
+
+
+/*ESTILOS GERAIS*/
+
+.flexible-div-column {
+
+}
+
+.flexible-row {
+    display: flex;
+    align-items: center;
+}
+
+.flexible-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+h5 {
+    font-size: 11px;
+}
