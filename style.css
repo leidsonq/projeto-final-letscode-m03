@@ -14,14 +14,18 @@
     left: 3vw;
     top: 0px;
     height: 48px;
-    width: 120px;
+    width: 125px;
+}
+
+#img-logo:hover {
+    cursor: pointer;
 }
 
 #nav-options-left {
     position: absolute;
     width: 693px;
     height: 50px;
-    left: 10vw;
+    left: 11vw;
     top: 0px;
 }
 
@@ -35,7 +39,6 @@
 .font-nav-options {
     font-family: 'Montserrat', sans-serif;
     color: white;
-    font-weight: bold;
 }
 
 #ul-options {
@@ -58,28 +61,146 @@
 
 #aside {
     position: relative;
-    background: yellow;
-    width: 300px;
+    width: 270px;
     height: max-content;
-    top: 83px;
-    left: 14vw;
+    top: 80px;
+    left: 3vw;
+    justify-content: space-between;
 }
 
-#inputMain {
-    appearance: none;
+.aside-font {
+    font-size: 11px;
+    color: #808080;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+#div-aside-filter-main {
+    background: #fdd685;
+    width: 230px;
+    height: max-content;
+    padding: 20px 15px 5px 15px;
+    border-radius: 2%;
+    border: 1.5px solid #fdbb85;
+    margin-bottom: 20px;
+}
+
+#input-main {
     background: #fff;
     border: 1px solid rgba(0,0,0,.12);
     border-radius: 4px;
     color: rgba(0,0,0,.54);
     outline: none;
     box-sizing: border-box;
-    font-size: 13px;
-    max-width: 100%;
+    font-size: 12px;
     padding: 12px;
-    height: 44px;
+    height: 40px;
     width: 100%;
+    margin-top: 10px;
+    margin-bottom: 15px;
 }
 
+#input-main:focus {
+    border: 2px solid #1190cd;
+    border-width: -1px;
+}
+
+#selector-house-type {
+    background: #fff;
+    border: 1px solid rgba(0,0,0,.12);
+    border-radius: 4px;
+    color: rgba(0,0,0,.54);
+    outline: none;
+    box-sizing: border-box;
+    font-size: 12px;
+    padding: 12px;
+    height: 40px;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+#selector-house-type:focus {
+    border: 2px solid #1190cd;
+}
+
+#selector-house-type:hover {
+    cursor: pointer;
+}
+
+#check-video {
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+#check-video:hover {
+    cursor: pointer;
+}
+
+#div-buttons {
+    margin-top: 10px;
+    margin-bottom: 10PX;
+    justify-content: space-between
+}
+
+.button-number {
+    border-radius: 32px;
+    border: white solid 1px;
+    background-color: white;
+    color: rgba(128, 128, 128, 0.87);
+    padding: 5px 10px 5px 10px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.button-number:hover {
+    cursor: pointer;
+    background-color: rgba(0, 0, 255, 0.041);
+}
+
+#input-price {
+    background: #fff;
+    border: 1px solid rgba(0,0,0,.12);
+    border-radius: 4px;
+    color: rgba(0,0,0,.54);
+    outline: none;
+    box-sizing: border-box;
+    font-size: 12px;
+    padding: 12px;
+    height: 40px;
+    width: 85%;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+#input-price:focus {
+    border: 2px solid #1190cd;
+}
+
+
+#div-aside-filter-secundary {
+    background: white;
+    width: 230px;
+    height: max-content;
+    padding: 20px 15px 15px 15px;
+    border-radius: 2%;
+    border: 1.5px solid rgba(0,0,0,.12);
+}
+
+.button-number-options {
+    border-radius: 32px;
+    border: rgba(0,0,0,.12) solid 1px;
+    background-color: white;
+    color: rgba(128, 128, 128, 0.87);
+    padding: 5px 10px 5px 10px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.button-number-options:hover {
+    cursor: pointer;
+    background-color: rgba(0, 0, 255, 0.041);
+}
 
 /*ESTILOS DA SEÇÃO PRINCIPAL - HEAD*/
 
@@ -91,19 +212,73 @@
 
 #section-main {
     position: relative;
-    background: yellow;
-    width: 600px;
+    width: 868px;
     height: max-content;
-    top: 83px;
-    left: 30vw;    
+    top: -540px;
+    left: 25.5vw; 
+    font-family: 'Montserrat', sans-serif;   
 }
 
+.div-item {
+    border: rgba(128, 128, 128, 0.568) solid 1px;
+    height: max-content;
+    margin-bottom: 10px;
+}
+
+.div-img-home {
+    width: 250px;
+    height: 190px;
+}
+
+.img-home {
+    width: 250px;
+    height: 190px;
+}
+
+.div-content-item {
+    padding: 15px 15px 15px 15px;
+    margin-left: 10px;
+}
+
+.font-address {
+    font-size: 11px;
+    color: rgba(128, 128, 128, 0.568);
+    margin-bottom: 0px;
+}
+
+.font-structure-item {
+    font-size: 12px;  
+}
+
+.font-description {
+    font-size: 18px; 
+    margin-top: 5px; 
+}
+
+.button-amenities {
+    border-radius: 32px;
+    border: rgba(128, 128, 128, 0.568) solid 1px;
+    background-color: rgba(128, 128, 128, 0.11);
+    color: rgba(128, 128, 128, 0.87);
+    padding: 1px 6px 1px 6px;
+    font-size: 11px;
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+.font-price {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    margin-top: 35px;
+}
+
+.font-monthlyCondoFee {
+    font-size: 12px;
+    margin-top: 0px;
+}
 
 /*ESTILOS GERAIS*/
-
-.flexible-div-column {
-
-}
 
 .flexible-row {
     display: flex;
@@ -113,7 +288,6 @@
 .flexible-column {
     display: flex;
     flex-direction: column;
-    align-items: center;
 }
 
 

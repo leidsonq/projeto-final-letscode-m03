@@ -33,25 +33,74 @@
         </div>
     </nav>
 
-    <aside id="aside">
-        <a href="">Viva Real</a>
-        <div class="flexible-column">
+    <aside id="aside" class="aside-font flexible-column">
+        <div class="flexible-column" id="div-aside-filter-main">
             <label>LOCALIZAÇÃO DO IMÓVEL</label>
-            <input id="inputMain" type="text" placeholder="Digite uma rua, bairro ou cidade">
-            <label>IMÓVEL COM</label>
-        
+            <input id="input-main" type="text" placeholder="Digite uma rua, bairro ou cidade">
+            <label >IMÓVEL COM</label>
+            <input id="check-video" type="checkbox">
+            <label>TIPO DE IMÓVEL</label>
+            <select id="selector-house-type">
+                <option>Mostrar todos</option>
+            </select>
+            <div class="flexible-row">
+                <div>
+                    <label>PREÇO MÍNIMO</label>
+                    <input id="input-price" type="text" placeholder="R$">
+                </div>
+                <div>
+                    <label>PREÇO MÁXIMO</label>
+                    <input id="input-price" type="text" placeholder="R$">
+                </div>
             </div>
-
+            <div class="flexible-column">
+                <label>NÚMERO DE QUARTOS</label>
+                <div id=div-buttons class="flexible-row">
+                    <button class="button-number">1+</button>
+                    <button class="button-number">2+</button>
+                    <button class="button-number">3+</button>
+                    <button class="button-number">4+</button>
+                    <button class="button-number">5+</button>
+                </div>
             </div>
-
+            
+        </div>
+        <div class="flexible-column" id="div-aside-filter-secundary">
+            <div class="flexible-row">
+                <div>
+                    <label>ÁREA MÍNIMA</label>
+                    <input id="input-price" type="text" placeholder="m²">
+                </div>
+                <div>
+                    <label>ÁREA MÁXIMA</label>
+                    <input id="input-price" type="text" placeholder="m²">
+                </div>
+            </div>
+            <div class="flexible-column">
+                <label>NÚMERO DE VAGAS NA GARAGEM</label>
+                <div id=div-buttons class="flexible-row">
+                    <button class="button-number-options">1+</button>
+                    <button class="button-number-options">2+</button>
+                    <button class="button-number-options">3+</button>
+                    <button class="button-number-options">4+</button>
+                    <button class="button-number-options">5+</button>
+                </div>
+                <label>NÚMERO DE BANHEIROS</label>
+                <div id=div-buttons class="flexible-row">
+                    <button class="button-number-options">1+</button>
+                    <button class="button-number-options">2+</button>
+                    <button class="button-number-options">3+</button>
+                    <button class="button-number-options">4+</button>
+                    <button class="button-number-options">5+</button>
+                </div>
+            </div>    
+        </div>
     </aside>
 
     <section id="section-main">
         <div id="head">
 
         </div>
-        <h1>DIV MAIN</h1>
-        <ol></ol>
     </section>
 
     <script src="index.js" type="module"></script>
